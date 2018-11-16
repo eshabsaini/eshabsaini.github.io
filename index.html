@@ -9,6 +9,8 @@
 		<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
   		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
   		<link rel="stylesheet" href="css/style.css">
+  		  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
 
 	</head>
 	
@@ -26,10 +28,45 @@
 
 	<div class="jumbotron text-center" id="jumbo" style="padding-top: 10%;">
 		<div class="container">
-			<b style="font-size:18px; padding-left: 100px;"> Hi! My name is Esha Saini and I am a senior at Thomas Jefferson High School for Science and Technology (TJHSST) in Alexandria, Virginia. I am passionate about computer science, public speaking, politics, and art. Here is my website I created with HTML! </br>
-			</b>
+			<table width="100%">
+				<tr>
+					<td align="center">
+						<b style="font-size:18px;">Esha Saini </b>
+						</br> 11109 Tommye Ln, Reston, VA 20194</br> eshabsaini@gmail.com  |  703-725-7796 </br> 
+<!-- 						<a href="https://www.linkedin.com/in/esha-saini-819702160/"> 
+							LinkedIn Profile
+						</a> -->
+					</td>
+				</tr>
+			</table>
 		</div>
 	</div>
+
+
+<!-- education-->
+<div class="w3-container" id="education">
+		<u>Education</u>
+		<div style="padding-right: 20px">
+			Thomas Jefferson High School for Science and Technology (TJ)                       Alexandria, VA        <br/>
+			                          
+			•	National Honor Society;    GPA: 4.32<br/>
+
+			•	Coursework: AP Computer Science A(5), Data Structures, Parallel Computing I/II, Computer Graphics, Web Application Development, Android Application Development, AP Chemistry(5), AP Physics C, AP Microeconomics(5), AP Macroeconomics(5) 
+		</div>
+</div>
+
+
+<!-- skills-->
+<div class="w3-container" id="skills">
+		<u>Skills</u>
+		<div style="padding-right: 20px">
+			TECHNICAL SKILLS
+			<br/>
+			•	Languages:   C, Java, Node.js, jQuery, JavaScript, HTML/CSS, SQL, PHP 
+			<br/>
+			•	Platforms:     Redshift and Netezza databases, Android Studio, Parallel Processing (MPI, CUDA,       Open MP), Amazon Web Services (AWS) S3,  Firebase, Excel-VBA, Arduino
+		</div>
+</div>
 
 
 
@@ -46,14 +83,14 @@
 		  <span class="dot1" onclick="currentSlide(7,1)"></span> 
 		</div>
 
-		<table>
+		<table style="padding: 0">
 			<tr >
 				<td>
 					<h1 class="text-center">Ray Tracing Algorithm</h1>
-					<p>Adding ray tracing to the renderer enables many additional effects such as accurate reflections, detailed </br>shadows, and ambient occlusion. The ray tracing functionality has been used in many recent movies,</br> including Pixar’s latest movie ‘Cars’.</p>					
+					<p>Adding ray tracing to the renderer enables many additional effects such as accurate reflections, detailed shadows, and ambient occlusion. The ray tracing functionality has been used in many recent movies, including Pixar’s latest movie ‘Cars’.</p>					
 				</td>
 
-				<td>
+				<td width="40%">
 					<div class="slideshow-container">
 
 						<div class="mySlides1 fade">
@@ -104,14 +141,19 @@
 					</div>				
 				</td>
 			</tr>
-		</table>
-		<p>----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------</p>
-		<table>
+
+			<tr>
+				<td colspan="2" style="padding-right: 20px">
+					<br/>
+				</td>
+			</tr>
+
+			
 			<tr>
 				<td >
 					<h1 class="text-center">SpeakUp Academy</h1>
 					<p>
-						Created SpeakUp Academy my Sophomor year to help get kids interested in politics and public speaking.</br> I have taught classes every summer for kids in 3rd-7th grade and the session culminates in a showcase</br> where the students present speeches on their opinions on major current affairs. I also built a website to </br>market the class and facilitate student registration. You can view it <a href="https://speakupacademy.weebly.com/">here</a> .
+						Created SpeakUp Academy my Sophomor year to help get kids interested in politics and public speaking. I have taught classes every summer for kids in 3rd-7th grade and the session culminates in a showcase where the students present speeches on their opinions on major current affairs. I also built a website to market the class and facilitate student registration. You can view it <a href="https://speakupacademy.weebly.com/">here</a> .
 
 					</p>					
 				</td>
@@ -149,6 +191,50 @@
 					
 				</td>
 			</tr>
+
+			<tr>
+				<td colspan="2" style="padding-right: 20px">
+					<br/>
+				</td>
+			</tr>
+
+			
+			<tr>
+				<td  style="padding-right: 20px">
+					<h1 class="text-center">Earthquake Safety Mobile Application</h1>
+					<p>
+						Led team to create a prototype of an emergency response app for earthquakes on Android Studio. Utilizes USGS RSS feed to alert users and to document their location and status for rescue or triage 
+					</p>					
+				</td>
+				<td align="center">
+					<div style="align-items: center">
+						<img src="images/projects/conrad.png" style="width:400px; height: 300px;">
+					</div>
+				</td>
+			</tr>
+
+			<tr>
+				<td colspan="2" style="padding-right: 20px">
+					<br/>
+				</td>
+			</tr>
+
+			<tr>
+				<td>
+					<h1 class="text-center">Orbital Mechanics Simulation</h1>
+					<p>
+						Developed algorithms to simulate the launch and orbit of the ISS and Apollo 11 using real-time data.
+						Used parallel processing to find the optimal launch angle and velocity for gravity assist and moon slingshot maneuvers.
+					</p>					
+				</td>
+				<td align="center">
+					<div style="align-items: center">
+						<img src="images/projects/orbital.png" style="width:400px; height: 300px;">
+					</div>
+				</td>
+
+			</tr>
+
 		</table>
 	</div>
 
@@ -159,7 +245,11 @@
 
 		<table >
 			<tr>
-				</br>
+				<td align="center">
+					<div style="align-items: center">
+						<img src="images/work/hilton.png" style="width:100px; height: 50px;">
+					</div>
+				</td>
 				<td>
 					<h1 class="text-center">Hilton Corporation</h1>
 					Interned for the  Enterprise Information Management (EIM) Team. Presented an analysis of customer who specified preferences in relation to their Hilton Honors member tier level. Conlcuded that Blue Level members specify the most preferences on average and that mid-priced range hotels should work to accomodate this trend. Worked with Redshift and Netezza databases to shift and catalog large amounts of customer data using SQL queries.
@@ -169,13 +259,36 @@
 				</td>
 			</br>
 			</tr>
-		</table>
-				<p>----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------</p>
-		<table>
+
+
 			<tr>
+				<td align="center">
+					<div style="align-items: center">
+						<img src="images/work/adept.png" style="width:100px; height: 50px;">
+					</div>
+				</td>
+
 				<td>
 					<h1 class="text-center">Adept Technologies</h1>
 					Consulted for the financial planning web application. Worked on enhancing the retrieval and download of files from the AWS S3 bucket using Node.js. Enhanced the format and aesthetics of the user interfaces using HTML and CSS. 
+				</td>
+
+				<td>
+
+				</td>
+			</tr>
+
+			
+			<tr>
+				<td align="center">
+					<div style="align-items: center">
+						<img src="images/work/punita.png" style="width:100px; height: 50px;">
+					</div>
+				</td>
+
+				<td>
+					<h1 class="text-center">Punita Group Inc.</h1>
+					Assisted in documenting products, filing invoices, and was in charge of creating campaigns for social media marketing. 
 				</td>
 
 				<td>
@@ -318,6 +431,20 @@
 				<br/>			<br/>
 				<br/>
 		</div>	
+
+<table style="width: 100%;">
+	<tr>
+		<td align="center">
+						<div style="align-content: center;">
+							<a href="mailto:eshabsaini@gmail.com" target="_blank" class="social fa fa-google fa-2x"></a>
+							<a href="https://www.linkedin.com/in/esha-saini-819702160/" target="_blank" class="social fa fa-linkedin fa-2x"></a>
+						</div>
+		</td>
+	</tr>
+
+</table>
+
+
 
 			<script>
 					var slideIndex = 1;
