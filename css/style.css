@@ -17,41 +17,41 @@ tr.spaceUnder>td {
 }
 
 #activities {
-  padding-top: 5vh;
+  padding-top: 2vh;
   padding-left: 5vh;
   /*background-color: #fbedd5;*/
     background-color: black;
-  padding-bottom: 5%;
+  padding-bottom: 5vh;
 }
 
 #skills {
-  padding-top: 5vh;
+  padding-top: 2vh;
   padding-left: 5vh;
-  padding-bottom: 5%;
+  padding-bottom: 5vh;
       background-color: cadetblue;
 }
 
 #education {
-  padding-top: 5vh;
+  padding-top: 2vh;
   padding-left: 5vh;
   /*background-color: #fbedd5;*/
     background-color: black;
 
-  padding-bottom: 5%;
+  padding-bottom: 5vh;
 }
 #art {
-  padding-left: 5vh;
+  padding-left: 2vh;
   padding-top: 5vh;
   /*background-color: #fbedd5;*/
     background-color: black;
 
-  padding-bottom: 5%;
+  padding-bottom: 5vh;
 }
 
 #projects {
-  padding-top: 7vh;
+  padding-top: 2vh;
   padding-left: 5vh;
-  padding-bottom: 5%;
+  padding-bottom: 5vh;
       background-color: cadetblue;
 }
 
@@ -59,7 +59,7 @@ tr.spaceUnder>td {
 
 
 #contact {
-  padding-top: 5vh;
+  padding-top: 2vh;
   background-color: #f6f6f6;
   padding-bottom: 5%;
 }
