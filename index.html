@@ -1,308 +1,275 @@
-<!-- art last and put work experience -->
-
 <!DOCTYPE html>
 <html lang="en">
-	<head>
-		<meta charset="UTF-8">
-		<title>Esha's webpage</title>
-		<meta name="viewport" content="width=device-width, initial-scale=1">  
-		<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
-  		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
-  		<link rel="stylesheet" href="css/style.css">
-  		  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<head>
+  <meta charset="UTF-8">
+  <title>Esha Saini</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+  <link rel="stylesheet" href="css/dots.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link rel="stylesheet" href="css/style.css">
+</head>
 
-
-	</head>
-	
-	<body id="myPage" data-spy="scroll" data-target=".navbar" data-offset="80">
+<body id="myPage" data-spy="scroll" data-target=".navbar" data-offset="80">
 
 	<!-- NAVBAR -->
 	<nav class="navbar navbar-collapse navbar-fixed-top" >
 		<ul class="nav navbar-nav" id="navbar">
 			<li><a href="#jumbo">Home</a></li>
-			<li><a href="#projects">Work Experience</a></li>
-		    <li><a href="#resume">Projects</a></li>
-		    <li><a href="#art">Art Portfolio</a></li>
+			<li><a href="#skillsPage">Skills</a></li>			
+		    <li><a href="#resume">Work Experience</a></li>
+		    <li><a href="#art">My Art</a></li>
+		    <li><a href="#whatimupto">My Travel Diary</a></li>
+		    <li><a href="#contact">Contact</a></li>
 		</ul>
 	</nav>
 
-	<div class="jumbotron text-center" id="jumbo" style="padding-top: 15vh; padding-bottom: 5vh; background: cadetblue">
+	<!-- LANDING PAGE -->
+	<div class="jumbotron text-center" id="jumbo" style="padding-top: 13%; margin-bottom: 0px;">
 		<div class="container">
-			<table width="100%">
-				<tr>
-					<td align="center">
-						<b style="font-size:18px;">Esha Saini </b>
-						</br> 11109 Tommye Ln, Reston, VA 20194</br> eshabsaini@gmail.com  |  703-725-7796 </br> 
-<!-- 						<a href="https://www.linkedin.com/in/esha-saini-819702160/"> 
-							LinkedIn Profile
-						</a> -->
-					</td>
-				</tr>
-			</table>
+			<h1>Esha Saini</h1>
+			<p>Senior at Thomas Jefferson High School for Science and Technology (TJHSST)</p>
+			<div class="row" style="padding-right: 50.5%" >
+				<a href="images/Esha_Saini_Resume.pdf" target="_blank" download="Esha_Saini_Resume" class="fa fa-download fa-2x" id="download"></a>
+			</div>
+			<p style="color: white; font-size: 12px;">Resume</p>
+
 		</div>
 	</div>
-
-
-<!-- education-->
-<div class="w3-container" id="education">
-		<h1>Education</h1>
-		<div style="padding-right: 20px">
-			Thomas Jefferson High School for Science and Technology (TJ)                       Alexandria, VA        <br/>
-			                          
-			•	National Honor Society;    GPA: 4.32<br/>
-
-			•	Coursework: AP Computer Science A(5), Data Structures, Parallel Computing I/II, Computer Graphics, Web Application Development, Android Application Development, AP Chemistry(5), AP Physics C, AP Microeconomics(5), AP Macroeconomics(5) 
-		</div>
-</div>
-
-
-<!-- skills-->
-<div class="w3-container" id="skills">
-		<h1>Skills</h1>
-		<div style="padding-right: 20px">
-			TECHNICAL SKILLS
-			<br/>
-			•	Languages:   C, Java, Node.js, jQuery, JavaScript, HTML/CSS, SQL, PHP 
-			<br/>
-			•	Platforms:     Redshift and Netezza databases, Android Studio, Parallel Processing (MPI, CUDA,       Open MP), Amazon Web Services (AWS) S3,  Firebase, Excel-VBA, Arduino
-		</div>
-</div>
-
-
-
-	<!--resume-->
-	<div class="w3-container" id="activities">
-		<h1>My Projects</h1>
-		<div style="text-align:center">
-		  <span class="dot1" onclick="currentSlide(1,1)"></span> 
-		  <span class="dot1" onclick="currentSlide(2,1)"></span> 
-		  <span class="dot1" onclick="currentSlide(3,1)"></span> 
-		  <span class="dot1" onclick="currentSlide(4,1)"></span> 
-		  <span class="dot1" onclick="currentSlide(5,1)"></span> 
-		  <span class="dot1" onclick="currentSlide(6,1)"></span> 
-		  <span class="dot1" onclick="currentSlide(7,1)"></span> 
-		</div>
-
-		<table style="padding: 0">
-			<tr >
-				<td>
-					<h2 class="text-center">Ray Tracing Algorithm</h2>
-					<p>Adding ray tracing to the renderer enables many additional effects such as accurate reflections, detailed shadows, and ambient occlusion. The ray tracing functionality has been used in many recent movies, including Pixar’s latest movie ‘Cars’.</p>					
-				</td>
-
-				<td width="40%">
-					<div class="slideshow-container">
-
-						<div class="mySlides1 fade">
-						  <div class="numbertext">1 / 7</div>
-						  <img src="images/projects/ray00.png" style="width:100%">
-						  <div class="text">2-D</div>
-						</div>
-
-						<div class="mySlides1 fade">
-						  <div class="numbertext">2 / 7</div>
-						  <img src="images/projects/ray0_5.png" style="width:100%">
-						  <div class="text">Binary Shadows</div>
-						</div>
-
-						<div class="mySlides1 fade">
-						  <div class="numbertext">3 / 7</div>
-						  <img src="images/projects/ray01.png" style="width:100%">
-						  <div class="text">Shading</div>
-						</div>
-
-						<div class="mySlides1 fade">
-						  <div class="numbertext">4 / 7</div>
-						  <img src="images/projects/ray03.png" style="width:100%">
-						  <div class="text">In environment</div>
-						</div>
-
-						<div class="mySlides1 fade">
-						  <div class="numbertext">5 / 7</div>
-						  <img src="images/projects/recursive2.png" style="width:100%">
-						  <div class="text">Recursive Reflection</div>
-						</div>
-
-						<div class="mySlides1 fade">
-						  <div class="numbertext">6 / 7</div>
-						  <img src="images/projects/movie.gif" style="width:100%">
-						  <div class="text">Shapes</div>
-						</div>
-
-						<div class="mySlides1 fade">
-						  <div class="numbertext">7 / 7</div>
-						  <img src="images/projects/tree.png" style="width:100%">
-						  <div class="text">GIF</div>
-						</div>
-
-
-						<a class="prev" onclick="plusSlides(-1,1)">&#10094;</a>
-						<a class="next" onclick="plusSlides(1,1)">&#10095;</a>
-					</div>				
-				</td>
-			</tr>
-
-			<tr>
-				<td colspan="2" style="padding-right: 20px">
-					<br/>
-				</td>
-			</tr>
-
-			
-			<tr>
-				<td >
-					<h2 class="text-center">SpeakUp Academy</h2>
-					<p>
-						Created SpeakUp Academy my Sophomor year to help get kids interested in politics and public speaking. I have taught classes every summer for kids in 3rd-7th grade and the session culminates in a showcase where the students present speeches on their opinions on major current affairs. I also built a website to market the class and facilitate student registration. You can view it <a href="https://speakupacademy.weebly.com/">here</a> .
-
-					</p>					
-				</td>
-
-				<td>
-					<div class="slideshow-container">
-
-						<div class="mySlides2 fade">
-						  <div class="numbertext">1 / 3</div>
-						  <img src="images/activities/class2.jpg" style="width:100%">
-						</div>
-						<div class="mySlides2 fade">
-						  <div class="numbertext">2 / 3</div>
-						  <img src="images/activities/class1.jpg" style="width:100%">
-						</div>
-
-						<div class="mySlides2 fade">
-						  <div class="numbertext">3 / 3</div>
-						  <img src="images/activities/class3.jpg" style="width:100%">
-
-						</div>
-
-
-						<a class="prev" onclick="plusSlides(-1,2)">&#10094;</a>
-						<a class="next" onclick="plusSlides(1,2)">&#10095;</a>
-
-					</div>
-						<br>
-
-					<div style="text-align:center">
-						  <span class="dot2" onclick="currentSlide(1,2)"></span> 
-						  <span class="dot2" onclick="currentSlide(2,2)"></span>
-						  <span class="dot2" onclick="currentSlide(3,2)"></span> 
-					</div>
-					
-				</td>
-			</tr>
-
-			<tr>
-				<td colspan="2" style="padding-right: 20px">
-					<br/>
-				</td>
-			</tr>
-
-			
-			<tr>
-				<td  style="padding-right: 20px">
-					<h2 class="text-center">Earthquake Safety Mobile Application</h2>
-					<p>
-						Led team to create a prototype of an emergency response app for earthquakes on Android Studio. Utilizes USGS RSS feed to alert users and to document their location and status for rescue or triage 
-					</p>					
-				</td>
-				<td align="center">
-					<div style="align-items: center">
-						<img src="images/projects/conrad.png" style="width:400px; height: 300px;">
-					</div>
-				</td>
-			</tr>
-
-			<tr>
-				<td colspan="2" style="padding-right: 20px">
-					<br/>
-				</td>
-			</tr>
-
-			<tr>
-				<td>
-					<h2 class="text-center">Orbital Mechanics Simulation</h2>
-					<p>
-						Developed algorithms to simulate the launch and orbit of the ISS and Apollo 11 using real-time data.
-						Used parallel processing to find the optimal launch angle and velocity for gravity assist and moon slingshot maneuvers.
-					</p>					
-				</td>
-				<td align="center">
-					<div style="align-items: center">
-						<img src="images/projects/orbital.png" style="width:400px; height: 300px;">
-					</div>
-				</td>
-
-			</tr>
-
-		</table>
-	</div>
-
-
-	<div class="w3-container" id="projects">
-		<h1>My Work Experience</h1>
-
-
-		<table >
-			<tr>
-				<td align="center">
-					<div style="align-items: center">
-						<img src="images/work/hilton.png" style="width:100px; height: 50px;">
-					</div>
-				</td>
-				<td>
-					<h2 class="text-center">Hilton Corporation</h2>
-					Interned for the  Enterprise Information Management (EIM) Team. Presented an analysis of customer who specified preferences in relation to their Hilton Honors member tier level. Conlcuded that Blue Level members specify the most preferences on average and that mid-priced range hotels should work to accomodate this trend. Worked with Redshift and Netezza databases to shift and catalog large amounts of customer data using SQL queries.
-				</td>
-				<td>
-
-				</td>
-			</br>
-			</tr>
-
-
-			<tr>
-				<td align="center">
-					<div style="align-items: center">
-						<img src="images/work/adept.png" style="width:100px; height: 50px;">
-					</div>
-				</td>
-
-				<td>
-					<h2 class="text-center">Adept Technologies</h2>
-					Consulted for the financial planning web application. Worked on enhancing the retrieval and download of files from the AWS S3 bucket using Node.js. Enhanced the format and aesthetics of the user interfaces using HTML and CSS. 
-				</td>
-
-				<td>
-
-				</td>
-			</tr>
-
-			
-			<tr>
-				<td align="center">
-					<div style="align-items: center">
-						<img src="images/work/punita.png" style="width:100px; height: 50px;">
-					</div>
-				</td>
-
-				<td>
-					<h2 class="text-center">Punita Group Inc.</h2>
-					Assisted in documenting products, filing invoices, and was in charge of creating campaigns for social media marketing. 
-				</td>
-
-				<td>
-
-				</td>
-			</tr>
-		</table>
+	<!-- ABOUT PAGE -->
+<!-- 	<div class="w3-container" id="about">
+		<p class="text-center">-</p>
 		<br>
-	</div>	
+		<br>
+		<h1 class="text-center">About Me</h1>
+		<br>
+	    <div class="row">
+	    	<div class="col-sm-3">
+	    		<div class="container">
+	    			<img src="images/me.jpg" height="200"  style="padding-left: 8%;">
+	    		</div>
+	    	</div>
+	    	<div class="col-sm-9" align="left">
+	    		<br>
+	    		<p style="font-size:18px;">My name is Esha Saini and I am currently a senior at Thomas Jefferson High School for Science and Technology (TJHSST). Scroll down to see some of the skills I've gained from previous work experiences, my global travels, and my art.</p>
+	    	</div>
+		</div>
 
-	
-		<!--art-->
-		<div class="w3-container" id="art">
-			<h1 class="text-center">Art Portfolio</h1>
+	</div> -->
+
+
+	<!-- SKILLS PAGE -->
+	<div class="w3-container" id="skillsPage">
+				<br>
+
+		<h1 class="text-center">Skills</h1>
+<!-- •	Languages: C, Java, Node.js, jQuery, JavaScript, HTML/CSS, SQL, PHP 
+•	Platforms: Redshift and Netezza databases, Android Studio, Parallel Processing (MPI, CUDA, Open MP), Amazon Web Services (AWS) S3, Firebase, Excel-VBA, Arduino -->
+		<br><br>
+		<div class="container" id="bars">
+			<ul id="skills" style="padding-left: 0;">
+				<li>
+					C
+					<div class="bar_container">
+						<span class="bar" data-bar='{ "color": "#19f" }'>
+							<span class="pct">60%</span>
+						</span>
+					</div>
+				</li>
+				<li>
+					Java
+					<div class="bar_container">
+						<span class="bar" data-bar='{ "color": "#27ae60", "delay": 400 }'>
+							<span class="pct">70%</span>
+						</span>
+					</div>
+				</li>
+				<li>
+					GCP (Firebase)
+					<div class="bar_container">
+						<span class="bar" data-bar='{ "color": "#d61b15", "delay": 2000 }'>
+							<span class="pct">40%</span>
+						</span>
+					</div>
+				</li>
+				<li>
+					AWS (S3 and EB)
+					<div class="bar_container">
+						<span class="bar" data-bar='{ "color": "#15d6c2", "delay": 2400 }'>
+							<span class="pct">30%</span>
+						</span>
+					</div>
+				</li>
+				<li>
+					SQL
+					<div class="bar_container">
+						<span class="bar" data-bar='{ "color": "#9b59b6", "delay": 800 }'>
+							<span class="pct">50%</span>
+						</span>
+					</div>
+				</li>
+				<li>
+					Android Studio
+					<div class="bar_container">
+						<span class="bar" data-bar='{ "color": "#f49842", "delay": 1200 }'>
+							<span class="pct">70%</span>
+						</span>
+					</div>
+				</li>
+				<li>
+					MPI 
+					<div class="bar_container">
+						<span class="bar" data-bar='{ "color": "#ae8a33", "delay": 1600 }'>
+							<span class="pct">30%</span>
+						</span>
+					</div>
+				</li>
+			</ul>
+		</div>
+	</div>
+
+<!-- COURSES PAGE -->
+	<div class="w3-container" id="courses">
+				<br>
+		<h1 class="text-center">Relevant Coursework at TJHSST</h1>
+
+		<p style="text-align: center;">hover to learn more</p>
+<!-- AP Computer Science A(5), Data Structures, Parallel Computing I/II, Computer Graphics, Web Application Development, Android Application Development, AP Chemistry(5), AP Physics C, AP Microeconomics(5), AP Macroeconomics(5) -->
+		<div class="w3-row" style="padding-top: 2%; margin-left: 10%;" id="courses">
+			
+			<div class="col-sm-2">
+				<div class="circle-text">
+					<a id="circle" data-toggle="popover" data-trigger="hover" data-placement="top" data-content="AP Computer Science A">APCS</a>
+				</div>
+			</div>
+			<div class="col-sm-2">
+				<div class="circle-text">
+					<a id="circle" data-toggle="popover" data-trigger="hover" data-placement="top" data-content="Intro to Data Structures">Data Structures</a>
+				</div>
+			</div>
+			<div class="col-sm-2">
+				<div class="circle-text">
+					<a id="circle"  data-toggle="popover" data-trigger="hover" data-placement="top" data-content="Parallel Computing I/II, modeling and visualization">Parallel Computing</a>
+				</div>
+			</div>
+			<div class="col-sm-2">
+				<div class="circle-text">
+					<a id="circle" data-toggle="popover" data-trigger="hover" data-placement="top" data-content="Web and Mobile (Android) Application Development">Web/Mobile App Dev</a>
+				</div>
+			</div>
+			<div class="col-sm-2">
+				<div class="circle-text">
+					<a id="circle" data-toggle="popover" data-trigger="hover" data-placement="top" data-content="AP Chemistry">AP Chemistry</a>
+				</div>
+			</div>
+			<div class="col-sm-2">
+				<div class="circle-text">
+					<a id="circle"  data-toggle="popover" data-trigger="hover" data-placement="top" data-content="AP Physics">AP Physics</a>
+				</div>
+			</div>
+			<div class="col-sm-2">
+				<div class="circle-text">
+					<a id="circle" data-toggle="popover" data-trigger="hover" data-placement="top" data-content="AP Microeconomics and Macroeconomics">AP Economics</a>
+				</div>
+			</div>
+			<div class="col-sm-2">
+				<div class="circle-text">
+					<a id="circle"  data-toggle="popover" data-trigger="hover" data-placement="top" data-content="Computer Graphics">Computer Graphics</a>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<!-- RESUME PAGE -->
+	<div class="w3-container" id="resume">
+		<br>
+		<h1 class="text-center">Here's my work experience</h1>
+		<!-- Hilton -->
+		<div class="w3-row" style="padding-top: 3%;">
+			<div class="w3-container w3-half" style="margin-left: -2%;">
+				<img src="images/hilton.png" class="w3-round pull-right" alt="jpmc" style="width:100%; max-width:250px; padding-right: 7%">
+			</div>
+			<div class="w3-container w3-half" style="margin-left: -2%;">
+				<h3 style="color: SteelBlue;">Hilton Corporation</h3>
+				<p><strong>Intern, 2018</strong></p>
+				<p><strong>McLean, VA</strong></p>
+				<br>
+				<p class="description">Interned for the Enterprise Information Management (EIM) Team. Presented an analysis of customer who specified preferences in relation to their Hilton Honors member tier level. Conlcuded that Blue Level members specify the most preferences on average and that mid-priced range hotels should work to accomodate this trend. Worked with Redshift and Netezza databases to shift and catalog large amounts of customer data using SQL queries.</p>
+			</div>
+		</div>
+
+		<!-- SpeakUp Academy -->
+		<div class="w3-row" style="padding-top: 3%; padding-bottom: 3%;">
+			<div class="w3-container w3-half" style="margin-left: -2%;">
+				<br>
+				<img src="images/SpeakUp.png" class="w3-round pull-right" alt="jpmc" style="width:100%; max-width:250px; padding-right: 7%;">
+			</div>
+			<div class="w3-container w3-half" style="margin-left: -2%;">
+				<h3 style="color: SteelBlue;">SpeakUp Academy</h3>
+				<p><strong>Founder & Instructor, 2016-2019</strong></p>
+				<p><strong>Herndon, VA</strong></p>
+				<br>
+				<p class="description">Created SpeakUp Academy my Sophomor year to help get kids interested in politics and public speaking. I have taught classes every summer for kids in 3rd-7th grade and the session culminates in a showcase where the students present speeches on their opinions on major current affairs. I also built a website to market the class and facilitate student registration. You can view it here .</p>
+			</div>
+		</div>
+
+		<!-- Adept -->
+		<div class="w3-row" style="padding-top: 3%;">
+			<div class="w3-container w3-half" style="margin-left: -2%;">
+				<img src="images/adept.png" class="w3-round pull-right" alt="jpmc" style="width:100%; max-width:250px; padding-right: 7%;">
+			</div>
+			<div class="w3-container w3-half" style="margin-left: -2%;">
+				<h3 style="color: SteelBlue;">Adept Technologies</h3>
+				<p><strong>Software Intern, 2017</strong></p>
+				<p><strong>Herndon, VA</strong></p>
+				<br>
+				<p class="description">Consulted for the financial planning web application. Worked on enhancing the retrieval and download of files from the AWS S3 bucket using Node.js. Enhanced the format and aesthetics of the user interfaces using HTML and CSS. </p>
+			</div>
+		</div>
+
+		<!-- Punita -->
+		<div class="w3-row" style="padding-top: 3%;">
+			<div class="w3-container w3-half" style="margin-left: -2%;">
+				<img src="images/punita.png" class="w3-round pull-right" alt="jpmc" style="width:100%; max-width:250px; padding-right: 7%; padding-top: 3%;">
+			</div>
+			<div class="w3-container w3-half" style="margin-left: -2%;">
+				<h3 style="color: SteelBlue;">Punita Group Inc.</h3>
+				<p><strong>Intern, 2017</strong></p>
+				<p><strong>Ann Arbor, MI</strong></p>
+				<br>
+				<p class="description">Assisted in documenting products, filing invoices, and was in charge of creating campaigns for social media marketing.</p>
+			</div>
+		</div>
+
+		<!-- USGS -->
+		<div class="w3-row" style="padding-top: 3%;">
+			<div class="w3-container w3-half" style="margin-left: -2%;">
+				<br><br>
+				<img src="images/usgs.jpg" class="w3-round pull-right" alt="jpmc" style="width:100%; max-width:250px; padding-right:7%;">
+			</div>
+			<div class="w3-container w3-half" style="margin-left: -2%;">
+				<h3 style="color: SteelBlue;">United States Geological Survey</h3>
+				<p><strong>Intern Analyist, 2018</strong></p>
+				<p><strong>Reston, VA</strong></p>
+				<br>
+				<p class="description">______________</p>
+			</div>
+		</div>
+	</div>
+
+
+
+
+
+	<!-- ART PAGE -->
+	<div class="w3-container" id="art">
+				<br>
+		<h1 class="text-center">View my art gallery</h1>
+
+		<p style="text-align: center;">click to expand</p>
 
 			<style>
 				div.gallery {
@@ -321,12 +288,16 @@
 				    width: 100%;
 				    height: 70%;
 				}
-/*
+				div.desc {
+				    padding: 15px;
+				    text-align: center;
+				}
 				div.gallery2 {
 				    margin: 20px;
 				    border: 1px solid #ccc;
 				    float: left;
-				    width: 460px;
+				    width: 400px;
+				    height: 650px;
 				}
 
 				div.gallery2:hover {
@@ -335,24 +306,21 @@
 
 				div.gallery2 img {
 				    width: 100%;
-				    height: 600px;
-				}*/
-				div.desc {
-				    padding: 15px;
-				    text-align: center;
+				    height: 80%;
 				}
+
 			</style>
 
-			<div class="gallery">
+			<div class="gallery2">
 			  <a target="_blank" href="images/art/4.png">
-			    <img src="images/art/4.png" alt="Mountains" width="600" height="400">
+			    <img src="images/4.png" alt="Mountains" width="600" height="400">
 			  </a>
 			  <div class="desc">Cowboy in Ink Pen</div>
 			</div>
 
 			<div class="gallery">
 			  <a target="_blank" href="images/art/2.jpg">
-			    <img src="images/art/2.jpg" alt="Forest" width="600" height="400">
+			    <img src="images/2.png" alt="Forest" width="600" height="400">
 			  </a>
 			  <div class="desc">Cersei Lannister in Watercolor</div>
 			</div>
@@ -360,7 +328,7 @@
 
 			<div class="gallery">
 			  <a target="_blank" href="images/art/5.jpg">
-			    <img src="images/art/5.jpg" alt="Northern Lights" width="600" height="400">
+			    <img src="images/5.png" alt="Northern Lights" width="600" height="400">
 			  </a>
 			  <div class="desc">Elephant in Ink Pen</div>
 			</div>
@@ -368,14 +336,14 @@
 
 			<div class="gallery">
 			  <a target="_blank" href="images/art/3.png">
-			    <img src="images/art/3.png" alt="Northern Lights" width="600" height="400">
+			    <img src="images/3.png" alt="Northern Lights" width="600" height="400">
 			  </a>
 			  <div class="desc">Panther in Charcoal</div>
 			</div>
 
 			<div class="gallery">
 			  <a target="_blank" href="images/art/8.jpg">
-			    <img src="images/art/8.jpg" alt="Mountains" width="600" height="400">
+			    <img src="images/8.png" alt="Mountains" width="600" height="400">
 			  </a>
 			  <div class="desc">Flowers in Watercolor</div>
 			</div>
@@ -383,14 +351,14 @@
 
 			<div class="gallery">
 			  <a target="_blank" href="images/art/9.jpg">
-			    <img src="images/art/9.jpg" alt="Mountains" width="600" height="400">
+			    <img src="images/9.png" alt="Mountains" width="600" height="400">
 			  </a>
 			  <div class="desc">Woman in Acrylic</div>
 			</div>
 
 			<div class="gallery">
 			  <a target="_blank" href="images/art/1.jpg">
-			    <img src="images/art/1.jpg" alt="5Terre" width="600" height="400">
+			    <img src="images/1.png" alt="5Terre" width="600" height="400">
 			  </a>
 			  <div class="desc">Woman in Charcoal</div>
 			</div>
@@ -398,86 +366,97 @@
 
 			<div class="gallery">
 			  <a target="_blank" href="images/art/7.jpg">
-			    <img src="images/art/7.jpg" alt="Mountains" width="600" height="400">
+			    <img src="images/7.png" alt="Mountains" width="600" height="400">
 			  </a>
 			  <div class="desc">Woman in Pastel</div>
 			</div>
-
+			
 			<div class="gallery">
-			  <a target="_blank" href="images/art/10.jpg">
-			    <img src="images/art/10.jpg" alt="Mountains" width="600" height="400">
+			  <a target="_blank" href="images/art/6.jpg">
+			    <img src="images/6.png" alt="Mountains" width="600" height="400">
 			  </a>
-			  <div class="desc">Flower in Colored Pencil</div>
+			  <div class="desc">Marbles in Pastel</div>
 			</div>
-
-				<br/>
-				<br/>			<br/>
-				<br/>			<br/>
-				<br/>			<br/>
-				<br/>			<br/>
-				<br/>			<br/>
-				<br/>			<br/>
-				<br/>			<br/>
-				<br/>			<br/>
-				<br/>			<br/>
-				<br/>			<br/>
-				<br/>			<br/>
-				<br/>			<br/>
-				<br/>			<br/>
-				<br/>			<br/>
-				<br/>			<br/>
-				<br/>			<br/>
-				<br/>			<br/>
-				<br/>			<br/>
-				<br/>			<br/>
-				<br/>
+		
 		</div>	
 
-<table style="width: 100%;">
-	<tr>
-		<td align="center">
-						<div style="align-content: center; background: cadetblue">
-							<a href="mailto:eshabsaini@gmail.com" target="_blank" class="social fa fa-google fa-2x"></a>
-							<a href="https://www.linkedin.com/in/esha-saini-819702160/" target="_blank" class="social fa fa-linkedin fa-2x"></a>
-						</div>
-		</td>
-	</tr>
-
-</table>
+	</div>
 
 
+	<!-- WHAT IM UP TO PAGE -->
+	<div class="w3-container text-center" id="whatimupto">
+				<br>
+		<h1>My Travel Diary</h1>
+		<p>Take a look at where I've been around the world and what I'm doing today</p>
+		<br>
+		  <div class="container text-center" id="map">
+		  	  <img src="images/worldmap.png" class="img-responsive" width="800" height="500">
 
-			<script>
-					var slideIndex = 1;
-					showSlides(slideIndex,"1");
-					showSlides(slideIndex,"2");
+		  	  <a id="dotHerndon" title="Herndon, VA" data-toggle="popover" data-trigger="hover" data-placement="right" data-content="Where I was born and raised. Where I attend TJHSST."><i class="fa fa-circle"></i></a>
 
-					function plusSlides(n, extension) {
-					  showSlides(slideIndex += n, extension);
-					}
+		      <a id="dotIceland" title="Reykjavik, Iceland" data-toggle="popover" data-trigger="hover" data-placement="right" data-content="The glaciers, volcanos, and countryside make it one of the most unique countries I have ever visited."><i class="fa fa-circle"></i></a>
 
-					function currentSlide(n, extension) {
-					  showSlides(slideIndex = n, extension);
-					}
+			  <a id="dotBrazil" title="Rio de Janeiro, Brazil" data-toggle="popover" data-trigger="hover" data-placement="right" data-content="A fun, vibrant city right on the beach with tons to do."><i class="fa fa-circle"></i></a>
 
-					function showSlides(n, extension) {
-					  var i;
-					  var slides = document.getElementsByClassName("mySlides"+extension);
-					  var dots = document.getElementsByClassName("dot"+extension);
-					  if (n > slides.length) {slideIndex = 1}    
-					  if (n < 1) {slideIndex = slides.length}
-					  for (i = 0; i < slides.length; i++) {
-					      slides[i].style.display = "none";  
-					  }
-					  for (i = 0; i < dots.length; i++) {
-					      dots[i].className = dots[i].className.replace(" active", "");
-					  }
-					  slides[slideIndex-1].style.display = "block";  
-					  dots[slideIndex-1].className += " active";
-					}
-				
-				
-			</script>
-	</body>
+			  <a id="dotCancun" title="Cancun, Mexico" data-toggle="popover" data-trigger="hover" data-placement="left" data-content="A great tourist destination that offers sunny beaches and fancy hotels."><i class="fa fa-circle"></i></a>
 
+			  <a id="dotCostaRica" title="San Jose, Costa Rica" data-toggle="popover" data-trigger="hover" data-placement="bottom" data-content="From luxury resorts to ziplines through the jungle, visiting Costa Rica was a blast."><i class="fa fa-circle"></i></a>
+
+			  <a id="dotLondon" title="London, England" data-toggle="popover" data-trigger="hover" data-placement="right" data-content="One of the most influential cities in the world that offers both historical and modern attractions."><i class="fa fa-circle"></i></a>
+
+			  <a id="dotBudapest" title="Budapest, Hungary" data-toggle="popover" data-trigger="hover" data-placement="right" data-content="With spectacular architecture and a modern vibe, Budapest is a must-visit."><i class="fa fa-circle"></i></a>
+
+			  <a id="dotGreece" title="Greek Islands" data-toggle="popover" data-trigger="hover" data-placement="right" data-content="One of the most unique locations I've visited with incredible views and plenty of fun activities."><i class="fa fa-circle"></i></a>
+
+			  <a id="dotIstanbul" title="Istanbul, Turkey" data-toggle="popover" data-trigger="hover" data-placement="right" data-content="A vibrant city that showcases so many interesting cultures and religions."><i class="fa fa-circle"></i></a>
+
+			  <a id="dotKenya" title="Masai Mara, Kenya" data-toggle="popover" data-trigger="hover" data-placement="right" data-content="Saw the majestic animals of the Sahara on our safari rides."><i class="fa fa-circle"></i></a>
+
+			  <a id="dotBombay" title="Bombay, India" data-toggle="popover" data-trigger="hover" data-placement="right" data-content="Where my mom's side of the family is from. Always love visiting and having a fun time here."><i class="fa fa-circle"></i></a>
+
+			  <a id="dotAlwar" title="Alwar, India" data-toggle="popover" data-trigger="hover" data-placement="right" data-content="Where my dad's side of the family is from. We stay in a huge house here full of extended family."><i class="fa fa-circle"></i></a>
+
+			  <a id="dotJapan" title="Tokyo, Japan" data-toggle="popover" data-trigger="hover" data-placement="right" data-content="One of my favorite vacations so far. Incredibly interesting to experience the people, culture, and food of Japan."><i class="fa fa-circle"></i></a>
+
+			  <a id="dotDubai" title="Dubai, UAE" data-toggle="popover" data-trigger="hover" data-placement="right" data-content="Its impossible not to be in awe of the huge skyscrapers and futuristic buildings right in the middle of the desert."><i class="fa fa-circle"></i></a>
+		  </div>
+	</div>
+
+	<!-- CONTACT PAGE -->
+	<div class="w3-container text-center" id="contact">
+		<br>
+		<h1>Contact me</h1>
+		<p>Feel free to reach out to me at anytime!</p>
+		<br>
+		<a href="mailto:eshabsaini@gmail.com" target="_blank" class="social fa fa-google fa-2x"></a>
+		<a href="https://www.linkedin.com/in/esha-saini-819702160/" target="_blank" class="social fa fa-linkedin fa-2x"></a>
+	</div>
+
+	<!-- FOOTER -->
+	<div class="footer-copyright text-center" id="myFooter" style="background-color: white">
+        <div class="container-fluid">
+        	<a id="up" href="#jumbo"><i class="fa fa-chevron-up fa-2x"></i></a>
+            <p style="margin-top: 1%; font-size: 11px;">Website made by Esha Saini</p>
+        </div>
+    </div>
+
+	<script type="text/javascript" src="js/skills.js" async></script>
+	<script type="text/javascript" src="js/scroll.js"></script>
+    <script>
+      $(document).ready(function(){
+          $('[data-toggle="popover"]').popover();
+      });
+    </script>
+
+    <script>
+	  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+	  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+	  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+	  })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+
+	  ga('create', 'UA-106336052-1', 'auto');
+	  ga('send', 'pageview');
+	</script>
+
+</body>
 </html>
